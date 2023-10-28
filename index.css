@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(86,174,160,1) 0%,rgba(250,239,233,1) 100%);
+}
+
+/*body {
+    background-image: linear-gradient(to bottom, rgba(238,184,166,1) 0%,rgba(250,239,233,1) 100%);
+}*/
+
+.moldura {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    position: absolute;
+    display: flex;
+    justify-content: center;  
+    width: 100%; 
+}
+
+#moldura {
+    width: 80%;
+}
+
+#molduraFlor {
+    width: 60%;
+    position: fixed;
+    margin: 2px 0px 0px -170px;
+}
+
+#foto {
+    border-radius: 50%;
+    -webkit-box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.75);
+    margin-top: 10%;
+    margin-left: 7%;
+    
+}
+
+.block {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    box-shadow: -10px -10px 10px 20px rgba(238,184,166,1);
+}
+
+.escrita_Titulo {
+    font-family: 'Alex Brush';
+    font-size: 145px;
+    color: #e1864f;
+    letter-spacing: 1px;
+    text-shadow: 0px -2px #e1864f, 7px 6px #94B49F;
+}
+
+.escrita_mes 
+{
+    font-family: 'Alex Brush';
+    font-size: 51;
+    color: #e1864f;
+    letter-spacing: 1px;
+    text-shadow: 0px -2px #e1864f, 7px 6px #94B49F;
+}
+
+.escrita_dia
+{
+    font-family: 'Alex Brush';
+    font-size: 65px;
+    color: #e1864f;
+    letter-spacing: 1px;
+    text-shadow: 0px -2px #e1864f, 7px 6px #94B49F;
+}
+
+.escrita {
+    font-family: 'Playpen Sans', cursive;
+    font-size: 30px;
+    color: black;
+}
+
+.conteudo_escrita {
+    padding: 50px 0;
+    display: flex;
+    text-align: center;
+}
+.conteudo_Data {
+    display: flex;
+    justify-content: space-evenly;
+}
+.font_data {
+    font-family: 'Playpen Sans', cursive;
+    font-size: 55px;
+    color: black;
+}
+
+.destaque {
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.destaque2 {
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.size_icon {
+    font-size: 100px;
+    /*color: rgba(86,174,160,1);*/
+    color: #e1864f;
+    align-self: center;
+}
+
+.escrita_icon {
+    align-self: center;
+    padding: 0 15px;
+    font-size: 40px;
+}

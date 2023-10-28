@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset= "utf-8" >
+        <title>A Simple HTML Example</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/c8bcf9b076.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="row">
+            <div class="foto">
+                <img id="foto" src="img/vitoria_felipe.jpeg" alt="Vitoria & Felipe" width="600px" height="600px">
+            </div>
+            <div class="moldura">
+                <img id="moldura" src="img/moldura.png" alt="Vitoria & Felipe">
+            </div>
+        </div>
+        <div class="row escrita_Titulo titulo">
+            Vitória & Felipe
+        </div>
+        <div class="row escrita conteudo_escrita">
+            <span>CONVIDAM PARA A CELEBRAÇÃO DO SEU CASAMENTO A SER REALIZADO EM</span>
+        </div>
+
+        <div class="row escrita conteudo_escrita">
+            <span class="escrita_mes">DEZ</span>
+            <div class="conteudo_Data col">
+                <div class="destaque font_data">SÁBADO</div>
+                <div class="escrita_dia">16</div>
+                <div class="destaque font_data">ás 18:00</div>
+            </div>
+        </div>
+
+        <!--<div class="row escrita conteudo_escrita">
+            <p style="font-size: 55px;" id="diaCasorio"></p>
+        </div>-->
+
+        <div class="row escrita conteudo_escrita">
+            <div class="col destaque2">
+                <div class="col" id="dias">
+                    00
+                </div>
+                <div class="col">
+                    DIA
+                </div>
+            </div>
+            <div class="col destaque2">
+                <div class="col" id="horas">
+                    00
+                </div>
+                <div class="col">
+                    HORA
+                </div>
+            </div>
+            <div class="col destaque2">
+                <div class="col" id="minutos">
+                    00
+                </div>
+                <div class="col">
+                    MINUTOS
+                </div>
+            </div>
+            <!--<div class="col">
+                :
+            </div>-->
+            <div class="col">
+                <div class="col" id="segundos">
+                    00
+                </div>
+                <div class="col">
+                    SEGUNDOS
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8" style="    display: inline-grid; justify-content: end;">
+                <div class="col escrita conteudo_escrita" style="padding: 10px 0px;">
+                    <a class="fa-solid fa-location-dot size_icon" style="padding: 0 5px;" href="https://www.google.com/maps/place/Loteamento+Recanto+da+Fazenda/@-22.7936419,-47.324614,18z/data=!4m6!3m5!1s0x94c89850de9f726d:0x421ccaeaf641ba30!8m2!3d-22.7939733!4d-47.3250275!16s%2Fg%2F11cs6js7nh?entry=ttu"></a>
+                    <span class="escrita_icon">Endereço</span>
+                </div>
+                <div class="col escrita conteudo_escrita" style="padding: 0px;">
+                    <a class="fa-brands fa-square-whatsapp size_icon" href="https://api.whatsapp.com/send?phone=5519971087396&text=Eu%20confirmo%20minha%20presen%C3%A7a%20no%20seu%20casamento.%0A%0ANome%20Completo:%0ARG/CPF:"></a>
+                    <span class="escrita_icon">Confirme</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="">
+                    <img id="molduraFlor" src="img/flor.png" alt="Vitoria & Felipe">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
